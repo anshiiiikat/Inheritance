@@ -85,4 +85,22 @@ Note: May lead to the **Diamond Problem**, which is resolved using **virtual inh
 ---
 
 ## Flowcharts
+### Single inheritance
+1.Start the program execution.
 
+2.Create an object C1 of the derived class Branch.
+
+3.Call the member function stream() of class College using C1.
+
+4.The function stream() prints "Engineering" to the console.
+
+5.Access the data members college and branch from the object C1.
+
+6.Concatenate the strings college ("Symbiosis - ") and branch ("Electronics & Tele-Communication Engineering").
+
+7.Print the concatenated string:
+"Symbiosis - Electronics & Tele-Communication Engineering".
+
+8.End the program execution.
+
+###
