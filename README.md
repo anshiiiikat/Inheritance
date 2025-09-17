@@ -103,4 +103,21 @@ Note: May lead to the **Diamond Problem**, which is resolved using **virtual inh
 
 8.End the program execution.
 
-###
+### Multilevel inheritance
+1.Start the program execution.
+
+2.Create an object O3 of the derived class Brand.
+
+3.Call the member function type() inherited from the base class Mobile using object O3.
+
+4.The function type() prints "Asian" to the console.
+
+5.Access the data members Location (from Mobile) and origin (from Origin) via object O3.
+
+6.Print the concatenated string: "Category: Mobile".
+
+7.Access the data member name (from Brand) via object O3.
+
+8.Print the string: "Brand: Samsung".
+
+9.End the program execution.
